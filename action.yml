@@ -1,0 +1,13 @@
+# action.yml
+name: 'Action args'
+description: 'learning actions args'
+inputs:
+  version:
+    description: 'the version input'
+    required: true
+    default: 'latest'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.version }}
