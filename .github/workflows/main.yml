@@ -14,4 +14,4 @@ jobs:
     steps:
       - uses: waylonwalker/actions-args@af943c021a9c61007988dbe4de4346d166457ae1
         with:
-          - version: '1.0.0'
+          version: '1.0.0'
